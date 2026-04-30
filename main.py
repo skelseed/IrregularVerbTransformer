@@ -41,7 +41,7 @@ def search():
     clear()  # Clear previous results
     
     if result:
-        txtPastSimple.insert(1.0, result[1])  # Past participle form
+        txtPastSimple.insert(1.0, result[0])  # Past participle form
         txtPastParticiple.insert(1.0, result[1])  # Using past participle
         txtSpanish.insert(1.0, result[2])
     else:
